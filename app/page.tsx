@@ -1,4 +1,4 @@
-const EMAIL = "cruisethecreek@gmail.com";
+const EMAIL = "27jsimms@gmail.com";
 
 const projects = [
   {
@@ -13,9 +13,9 @@ const projects = [
     name: "AuraBinder",
     tagline: "Cross-TCG digital binder & collection planner",
     description:
-      "A free tool that helps trading-card collectors plan and organize binder pages across multiple games. Full-stack build focused on speed and a clean interface.",
+      "A free tool that helps trading-card collectors plan and organize binder pages across multiple games. Built for speed and a clean interface.",
     tech: ["Next.js", "Supabase", "Vercel"],
-    url: "",
+    url: "https://aurabinder.com",
   },
   {
     name: "HustleBoard",
@@ -23,7 +23,15 @@ const projects = [
     description:
       "A performance leaderboard that tracks and gamifies staff incentives for a retail store, handled end to end from database design to a responsive UI.",
     tech: ["Next.js", "Supabase", "PostgreSQL"],
-    url: "",
+    url: "https://aldi-incentive-tracker-pl5l0b0ju-tchiddos-projects.vercel.app",
+  },
+  {
+    name: "Raina's Nails",
+    tagline: "Business site for a local nail technician",
+    description:
+      "A polished site built for a local nail tech to showcase services and bring in new clients. Real client work, shipped and live.",
+    tech: ["Next.js", "Vercel"],
+    url: "https://rainas-nails-3kwhf4xet-tchiddos-projects.vercel.app",
   },
 ];
 
@@ -73,6 +81,24 @@ export default function Home() {
           <a className="btn btn-ghost" href="#work">
             View my work
           </a>
+        </div>
+      </section>
+
+      <section className="featured">
+        <div className="featured-media">
+          <img
+            src="/dietfilter.jpg"
+            alt="Jayden presenting DietFilter at the 2025 Congressional App Challenge"
+          />
+        </div>
+        <div className="featured-body">
+          <span className="award">2025 Congressional App Challenge Winner</span>
+          <h2>DietFilter</h2>
+          <p>
+            An app that helps shoppers instantly see which grocery products fit
+            their dietary needs and restrictions. Selected as the winning app
+            for Ohio&apos;s 6th district in the 2025 Congressional App Challenge.
+          </p>
         </div>
       </section>
 
