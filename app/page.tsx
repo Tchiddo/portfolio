@@ -95,10 +95,21 @@ export default function Home() {
           <span className="award">2025 Congressional App Challenge Winner</span>
           <h2>DietFilter</h2>
           <p>
-            An app that helps shoppers instantly see which grocery products fit
-            their dietary needs and restrictions. Selected as the winning app
-            for Ohio&apos;s 6th district in the 2025 Congressional App Challenge.
+            A React Native mobile app that lets shoppers scan or search grocery
+            products and instantly see which ones fit their dietary needs and
+            restrictions. Built on a Supabase backend with a hybrid OpenFoodFacts
+            and local-cache data layer for fast lookups, plus RevenueCat-powered
+            Pro subscriptions. Selected as the winning app for Ohio&apos;s 6th
+            district in the 2025 Congressional App Challenge.
           </p>
+          <ul className="tags featured-tags">
+            <li>React Native</li>
+            <li>Expo</li>
+            <li>TypeScript</li>
+            <li>Supabase</li>
+            <li>RevenueCat</li>
+            <li>OpenFoodFacts API</li>
+          </ul>
         </div>
       </section>
 
