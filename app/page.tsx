@@ -26,7 +26,7 @@ const projects = [
     description:
       "A performance leaderboard that tracks and gamifies staff incentives for a retail store, handled end to end from database design to a responsive UI.",
     tech: ["Next.js", "Supabase", "PostgreSQL"],
-    url: "https://aldi-incentive-tracker-pl5l0b0ju-tchiddos-projects.vercel.app",
+    url: "https://aldi-incentive-tracker.vercel.app",
   },
   {
     name: "Raina's Nails",
@@ -34,7 +34,7 @@ const projects = [
     description:
       "A polished site built for a local nail tech to showcase services and bring in new clients. Real client work, shipped and live.",
     tech: ["Next.js", "Vercel"],
-    url: "https://rainas-nails-3kwhf4xet-tchiddos-projects.vercel.app",
+    url: "https://rainas-nails.vercel.app",
   },
 ];
 
@@ -115,6 +115,14 @@ export default function Home() {
             <li>RevenueCat</li>
             <li>OpenFoodFacts API</li>
           </ul>
+          <a
+            className="featured-link"
+            href="https://youtu.be/dCke8wrdy78"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Watch demo &#8599;
+          </a>
         </div>
       </section>
 
