@@ -60,15 +60,16 @@ main {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 24px;
-  font-size: 15px;
+  gap: 28px;
+  font-size: 16.5px;
 }
 .nav-links a {
-  color: var(--muted);
+  color: var(--text);
+  font-weight: 500;
   transition: color 0.2s;
 }
 .nav-links a:hover {
-  color: var(--text);
+  color: var(--accent);
 }
 .nav-cta {
   color: #fff !important;

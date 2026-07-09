@@ -1,4 +1,7 @@
 const EMAIL = "27jsimms@gmail.com";
+const GMAIL = `https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}&su=${encodeURIComponent(
+  "Project inquiry"
+)}&body=${encodeURIComponent("Hi Jayden,\n\nI'd like to talk about a project.")}`;
 
 const projects = [
   {
@@ -56,7 +59,12 @@ export default function Home() {
         <div className="nav-links">
           <a href="#work">Work</a>
           <a href="#about">About</a>
-          <a className="nav-cta" href={`mailto:${EMAIL}`}>
+          <a
+            className="nav-cta"
+            href={GMAIL}
+            target="_blank"
+            rel="noreferrer"
+          >
             Get in touch
           </a>
         </div>
@@ -75,10 +83,7 @@ export default function Home() {
           stack.
         </p>
         <div className="hero-actions">
-          <a className="btn btn-primary" href={`mailto:${EMAIL}`}>
-            Start a project
-          </a>
-          <a className="btn btn-ghost" href="#work">
+          <a className="btn btn-primary" href="#work">
             View my work
           </a>
         </div>
@@ -169,7 +174,12 @@ export default function Home() {
           Available for freelance and white-label work. Tell me what you&apos;re
           building.
         </p>
-        <a className="btn btn-primary" href={`mailto:${EMAIL}`}>
+        <a
+          className="btn btn-primary"
+          href={GMAIL}
+          target="_blank"
+          rel="noreferrer"
+        >
           {EMAIL}
         </a>
       </section>
