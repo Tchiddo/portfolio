@@ -247,9 +247,18 @@ main {
   letter-spacing: -0.01em;
 }
 .card-link {
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--accent);
+  background: var(--accent-soft);
+  padding: 5px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+.card-link:hover {
+  background: var(--accent);
+  color: #fff;
 }
 .card-tagline {
   color: var(--muted);

@@ -138,7 +138,7 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Live &#8599;
+                    Visit &#8599;
                   </a>
                 ) : null}
               </div>
