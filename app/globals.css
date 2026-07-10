@@ -32,6 +32,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {
@@ -350,20 +351,44 @@ main {
 @media (max-width: 720px) {
   .featured {
     grid-template-columns: 1fr;
+    padding: 26px;
+    gap: 26px;
   }
   .featured-media img {
-    max-height: 260px;
+    max-height: 300px;
   }
 }
 
 @media (max-width: 560px) {
+  main {
+    padding: 0 20px;
+  }
+  .nav {
+    padding: 20px 0;
+  }
   .nav-links {
     gap: 14px;
   }
   .nav-links a:not(.nav-cta) {
     display: none;
   }
+  .grid {
+    grid-template-columns: 1fr;
+  }
   .hero {
     padding: 40px 0;
+  }
+  .section {
+    padding: 44px 0;
+  }
+  .lede,
+  .about-text {
+    font-size: 17px;
+  }
+  .contact {
+    padding: 56px 0;
+  }
+  .featured-media img {
+    max-height: 260px;
   }
 }
